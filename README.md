@@ -4,7 +4,7 @@ This project implements a **MIPS32 architecture-based 5-stage pipelined processo
 
 ---
 
-## 🔧 Features
+##  Features
 
 - **5 Pipeline Stages:**
   - IF (Instruction Fetch)
