@@ -33,7 +33,7 @@ This project implements a **MIPS32 architecture-based 5-stage pipelined processo
 
 ---
 
-## 📁 File Structure
+##  File Structure
 ```
 mips32_pipeline/
 ├── mips32_pipeline.v   # Main processor module
@@ -44,7 +44,7 @@ mips32_pipeline/
 
 ---
 
-## 🛠 How to Simulate
+##  How to Simulate
 
 ### Using Icarus Verilog + GTKWave:
 
@@ -61,7 +61,7 @@ gtkwave dump.vcd
 
 ---
 
-## 🧪 Sample Program
+##  Sample Program
 
 Here’s a simple sample program in assembly:
 
