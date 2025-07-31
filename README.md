@@ -32,6 +32,8 @@ This project implements a **MIPS32 architecture-based 5-stage pipelined processo
   - 32 general-purpose registers (`R0` to `R31`), with `$zero = R0 = 0`
 
 ---
+<img width="1918" height="651" alt="pipelining" src="https://github.com/user-attachments/assets/59451c33-0134-4ded-9c29-4e2ac9f8481a" />
+
 
 ##  File Structure
 ```
@@ -44,22 +46,6 @@ mips32_pipeline/
 
 ---
 
-##  How to Simulate
-
-### Using Icarus Verilog + GTKWave:
-
-```sh
-iverilog -o mips_sim mips32_pipeline.v testbench.v
-vvp mips_sim
-gtkwave dump.vcd
-```
-
-> Make sure `testbench.v` includes:
-> ```verilog
-> $readmemh("program.mem", mips32_pipeline.InstrMem);
-> ```
-
----
 
 ##  Sample Program
 
@@ -95,7 +81,7 @@ HLT                ; Halt processor
 
 ---
 
-## ⚠ Notes
+##  Notes
 
 - `$zero` (`R0`) is hardwired to zero.
 - `HLT` instruction halts the processor by setting the `HALTED` flag.
