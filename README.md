@@ -84,7 +84,7 @@ HLT                ; Halt processor
 
 ---
 
-## 🧠 Educational Concepts Covered
+##  Educational Concepts Covered
 
 - Instruction pipelining
 - Data hazards and RAW detection
@@ -95,7 +95,7 @@ HLT                ; Halt processor
 
 ---
 
-## ⚠️ Notes
+## ⚠ Notes
 
 - `$zero` (`R0`) is hardwired to zero.
 - `HLT` instruction halts the processor by setting the `HALTED` flag.
