@@ -198,13 +198,6 @@ An optional `program.mem` file may be included for external program initializati
 
 ## Simulation
 
-### Icarus Verilog
-
-```bash
-iverilog -g2012 -s MIPS32_forwarding_tb -o sim.out mips32_pipeline_v4_1.v testbench_v4_1.v
-vvp sim.out
-```
-
 ### Vivado
 
 1. Add `mips32_pipeline_v4_1.v` as a Design Source.
