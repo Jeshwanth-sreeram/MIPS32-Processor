@@ -257,13 +257,3 @@ The testbench checks selected directed scenarios, not exhaustive coverage of eve
 - Maximum operating frequency, area, power and timing closure require synthesis and static timing analysis.
 
 Potential future extensions include early branch resolution, branch prediction, variable-latency memory support, explicit exception handling, and ASIC PPA analysis.
-
-## Revision History
-
-| Revision | Main changes |
-|---|---|
-| V1 | Initial five-stage pipeline and basic hazard detector |
-| V2 | Shared branch redirect, wrong-path invalidation, dedicated NOP |
-| V3 | Instruction-aware source/destination dependency detection and stall-control proposal |
-| V4 | Both forwarding paths, removal of unnecessary RAW stalls, corrected instruction indexing, branch offsets, writeback and HALTED control |
-| V4.1 | Signed SLT/SLTI and byte-addressed data memory |
