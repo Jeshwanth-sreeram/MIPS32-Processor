@@ -10,7 +10,7 @@ The current revision (**V4.1**) improves the original processor with complete EX
 
 - Five pipeline stages: Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Writeback (WB).
 - 32-bit datapath and 32 general-purpose registers, with R0 architecturally fixed to zero.
-- Harvard-style architecture: separate 1024 × 32-bit instruction and data memories (4 KiB each).
+- Harvard-style architecture: separate 1024 × 32-bit instruction and data memories (4 KB each).
 - 17 supported instructions covering arithmetic, logic, loads, stores, conditional branches, jumps, and halt.
 - EX/MEM-to-EX and MEM/WB-to-EX forwarding for both source operands.
 - Separate load-result forwarding, store-data forwarding, branch-operand forwarding, and jump-register forwarding.
