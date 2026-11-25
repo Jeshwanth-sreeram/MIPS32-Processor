@@ -187,8 +187,8 @@ These are architectural timing expectations for fixed-latency operation, not mea
 
 ```text
 .
-├── mips32_pipeline_v4_1.v   # Current processor RTL (module mips32_pipeline)
-├── testbench_v4_1.v        # Self-checking testbench (MIPS32_forwarding_tb)
+├── mips32_pipeline_final.v   # Current processor RTL (module mips32_pipeline)
+├── testbench_mips32_final.v        # Self-checking testbench (MIPS32_forwarding_tb)
 └── README.md              # Project documentation
 ```
 
