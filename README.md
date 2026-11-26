@@ -17,7 +17,7 @@ The current revision (**V4.1**) improves the original processor with complete EX
 - EX-stage branch resolution and wrong-path instruction invalidation.
 - Dedicated internal NOP type for pipeline bubbles and reset initialization.
 - Signed SLT/SLTI comparisons and byte-addressed instruction/data accesses.
-- Directed, self-checking Verilog testbench.
+- Directed, Verilog testbench.
 
 ## Architecture
 
